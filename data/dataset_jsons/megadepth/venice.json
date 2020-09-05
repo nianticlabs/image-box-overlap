@@ -1,0 +1,12 @@
+[
+  {
+    "scene": "0008",
+    "path_sfm": "/path_to/megadepth/MegaDepth_v1_SfM/",
+    "train_file": "data/overlap_data/megadepth/venice/train.txt",
+    "val_file": "data/overlap_data/megadepth/venice/val.txt",
+    "test_file": "data/overlap_data/megadepth/venice/test.txt",
+    "path_depth": "/path_to/phoenix/S6/zl548/MegaDepth_v1/",
+    "list_images_with_depth": "data/overlap_data/megadepth/venice/images_with_depth.txt"
+  }
+]
+
