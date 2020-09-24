@@ -57,7 +57,8 @@ def main():
                          val_check_interval=opts.log_frequency,
                          distributed_backend=opts.backend,
                          deterministic=True,
-                         fast_dev_run=False)
+                         fast_dev_run=False,
+                         max_epochs=opts.num_epochs)
 
     # Train
     trainer.fit(model, train_dataloader=train_dataloader, val_dataloaders=val_dataloader)
